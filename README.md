@@ -13,7 +13,7 @@ This command must be followed by x lines of 32 bit addresses for the trace writt
 ## Calculations
 This is how each cache-miss 'type' is calculated. The definition of each of these 'type's of cache-miss is given as just the way in which they are calculated, as below.
 
-![cache-miss-type-calculations](assets/cache-miss-calculations.gif)
+![cache-miss-type-calculations](assets/cache-miss-calculations.jpg)
 
 ## Example
 
