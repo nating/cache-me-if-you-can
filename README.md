@@ -10,11 +10,15 @@ This program finds the cache number of cache hits and the number of the differen
 
 This command must be followed by x lines of 32 bit addresses for the trace written in hexidecimal without the "0x" prefix. Where x is the number of addresses accessed in the trace.
 
+## Calculations
+This is how each cache-miss 'type' is calculated. The definition of each of these 'type's of cache-miss is given as just the way in which they are calculated, as below.
+
+![cache-miss-type-calculations](assets/cache-miss-calculations.gif)
+
 ## Example
 
 ### Input
-java Cache 16 2 4 32
-
+java Cache 16 2 4 32  
 0000  
 0004  
 000c  
