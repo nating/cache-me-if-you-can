@@ -72,7 +72,6 @@ public class Cache {
 		for(int i=0;i<K;i++){
 			String tag = tags[set][i];
 			if(tag!=null && tag.equals(tagString) && valid[set][i]){
-				System.out.println("HIT");
 				hits++;
 				
 				//Decrement all tags used less recently than the lru of this set
@@ -232,8 +231,8 @@ public class Cache {
         int x = Integer.parseInt(args[3]);
 
 		Cache c = new Cache(l,k,n);
-		Cache fullyAssociativeInfiniteCapacity = new Cache(l,1,600);	//Very large number (600?) that won't be reached
-		Cache fullyAssociativeFiniteCapacity = new Cache(l,1,k*n);
+		Cache fullyAssociativeInfiniteCapacity = new Cache(l,600,1);	//Very large number (600?) that won't be reached
+		Cache fullyAssociativeFiniteCapacity = new Cache(l,k*n,1);
 		
 		Scanner scanner = new Scanner(System.in);
 		
