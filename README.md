@@ -20,9 +20,10 @@ This is how each cache-miss 'type' is calculated. The definition of each of thes
 This command must be followed by x lines of 32 bit addresses for the trace written in hexidecimal without the "0x" prefix. Where x is the number of addresses accessed in the trace.
 
 ## Example
+Here is an example using the cache from the visualisation above.
 
 ### Input
-java Cache 16 2 4 32  
+java Cache 16 4 2 32  
 0000  
 0004  
 000c  
@@ -57,8 +58,8 @@ java Cache 16 2 4 32
 3394  
 
 ### Output
-Total Hits: 13  
-Total Misses: 19  
+Total Hits: 15  
+Total Misses: 17  
 Compulsory: 15  
 Capacity: 1  
-Conflict: 3  
+Conflict: 1  
