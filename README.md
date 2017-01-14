@@ -15,12 +15,12 @@ This command must be followed by x lines of 32 bit addresses for the trace writt
 ### Input
 java Cache 16 2 4 32
 
-000
+0000
 0004
 000c
 2200
 00d0
-00e0\n
+00e0
 1130
 0028
 113c
