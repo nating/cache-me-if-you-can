@@ -1,6 +1,8 @@
 # cache-me-if-you-can
 A program for simulating caches.
 
+<img src="https://github.com/nating/cache-me-if-you-can/blob/master/assets/cache-explanation.jpg" width="800">
+
 ## About
 This program finds the cache number of cache hits and the number of the different types of cache misses for a cache specified by the user for a trace of address accesses specified by the user.
 
