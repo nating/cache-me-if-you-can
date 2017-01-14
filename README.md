@@ -6,20 +6,21 @@ This program finds the cache number of cache hits and the number of the differen
 
 ## Usage
 
-`java Cache <bytes per block> <lines in a set> <sets in the cache> <addresses in trace>`
+`java Cache <bytes per block> <lines in a set> <sets in the cache> <addresses accessed in trace>`
 
-This command must be followed by x lines of 32 bit addresses for the trace written in hexidecimal without the "0x" prefix.
+This command must be followed by x lines of 32 bit addresses for the trace written in hexidecimal without the "0x" prefix. Where x is the number of addresses accessed in the trace.
 
 ## Example
 
 ### Input
 java Cache 16 2 4 32
-0000
+
+000
 0004
 000c
 2200
 00d0
-00e0
+00e0\n
 1130
 0028
 113c
