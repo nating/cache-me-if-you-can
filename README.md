@@ -2,7 +2,7 @@
 A program for simulating caches.
 
 ## About
-This program finds the cache number of cache hits and the number of the different types of cache misses for a cache specified by the user for a trace of address accesses specified by the user.
+This program finds the cache number of cache hits and the number of the different types of cache misses for a cache specified by the user for a trace of address accesses specified by the user. Each Cache uses a Least Recently Used replacement policy.
 
 ## Organization of a cache
 
